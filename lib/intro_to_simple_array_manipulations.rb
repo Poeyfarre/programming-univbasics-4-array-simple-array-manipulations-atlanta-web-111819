@@ -1,6 +1,11 @@
 def using_push(array, string)
   array.push(string)
+  puts array
+  array
 end
+
+using_push([1,2,3], 4)
+
 
 def using_unshift(array, string)
   array.unshift(string)
